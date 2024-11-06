@@ -55,6 +55,14 @@ server {
 }
 ```
 
+Por una cuestión del caché de los navegadores, es posible que entre las cabeceras no encontremos 
+el código HTTP que esperamos (301), ya que en lugar de tratar de solicitar un recurso del servidor, 
+se está cargando información almacenada en caché para ahorrar recursos. Para evitar este problema, 
+podemos utilizar curl para comprobar que la redirección se está realizando correctamente:
+
+![Comprobación de redirección con curl](./images/comprobacion_cabecera.png)
+
+
 ## Cuestiones finales
 
 ### Cuestión 1
