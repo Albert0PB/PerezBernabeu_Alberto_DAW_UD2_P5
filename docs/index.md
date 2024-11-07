@@ -62,6 +62,8 @@ podemos utilizar curl para comprobar que la redirección se está realizando cor
 
 ![Comprobación de redirección con curl](./images/comprobacion_cabecera.png)
 
+Donde se nos indica que el contenido al que tratamos de acceder no se encuentra en 192.168.0.22:80 sino 
+que deberíamos tratar de acceder a él desde https://192.168.0.22/.
 
 ## Cuestiones finales
 
